@@ -197,3 +197,142 @@ nav ul li a{
     padding: 20px;
     width: 275px;
 } 
+/*===///Resume style start//===*/
+.resume-file-wrap .resume-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 110px;
+}
+.resume-file{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume-file .education{
+    width: 558px;
+    margin-right: 24px;
+}
+.resume-file .experience{
+    width: 558px;
+}
+.resume-file .ecucation-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.resume-file .exprience-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.resume-file .subtitle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.resume-file .titile{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.resume-file .discription{
+    font-size: 16px;
+    color: #757575;
+    /* padding-bottom: 30px; */
+}
+.line{
+     margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-file-wrap .resume-btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+   margin: 50px auto;
+}
+.resume-file-wrap  a .resume-btn{
+    text-decoration: none;
+}
+/*==///===Footer style==///===*/
+.footer{
+   background-color: #FFF8F3;
+   padding: 130px 0px;
+}
+.footer-wrap{
+    width: 1140px;
+    margin:0px auto;
+}
+.footer-wrap .footer-left{
+    width: 512px;
+    margin-right: 15px;
+}
+.footer-wrap .footer-left .f-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-wrap .footer-left .f-discirption{
+    width: 562px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.footer-wrap .footer-right{
+    width: 512px;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-wrap .footer-left{}
+.footer-right input[type="text"]{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    border: none;
+}
+.footer-right input[type="email"]{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    border: none;
+}
+.textarea{
+    border: none;
+    padding: 10px 30px;
+}
+.from-btn{
+    background-color: #FD6E0A;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.from-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.footer-wrap .footer-right .footer-title{
+    font-size:35px ;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom:30px;
+ }
