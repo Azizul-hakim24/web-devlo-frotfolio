@@ -132,12 +132,68 @@ nav ul li a{
     align-items: center;
     margin: 0px 30px;
 }
-.contact p{
+.contact .info-subtitle{
     font-size: 20px;
     color: #757575;
 }
-.contact h4{
+.contact .info-title{
     font-size: 18px;
     font-weight: bold;
     color: #474747;
 }
+/**====//--Sclill Start--//===**/
+.Skill{
+    margin-bottom: 130px;
+}
+.Skill .skill-Wrap{
+    /* width: 827px;
+    margin: 0 auto; */
+}
+.Skill .skill-Wrap .skill-content{}
+.skill-content .skill-top-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 909px;
+    margin: 0 auto;
+}
+.skill-content .skill-top-info .skill-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.skill-content .skill-top-info .skill-discripition{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/*===///--Skill Box style--///===*/
+.skill-box-wrap{}
+.skill-box-wrap .skill-box{}
+.skill-box-wrap .skill-box img{
+    margin-bottom: 30px;
+}
+.skill-box-wrap .skill-box .skill-box-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:20px;
+    color: #181818;
+}
+.skill-box-wrap .skill-box .skill-box-description{
+    font-size: 16px;
+    color: #757575;
+    width: 200px;
+    width: 200px;
+}
+.skill-content .skill-box-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+} 
+.skill-content .skill-box-wrap .skill-box{
+    box-shadow: 0px 6px 50px 0px #00000038;
+    padding: 20px;
+    width: 275px;
+} 
