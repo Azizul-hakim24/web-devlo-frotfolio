@@ -46,6 +46,7 @@ nav ul li a{
     height: 64px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 /*===///-Header style end-////===*/
 /*===///-Banner Style start-////===*/
@@ -84,4 +85,59 @@ nav ul li a{
 .banner .banner-content .bnner-img img{
     vertical-align: middle;
 }
+/*===///-About section start-///===*/
+.main{
+    width: 1140px;
+    margin: 0px auto;
+}
+.about-section{
+    margin: 130px 0px;
+}
+.about-section .about-wrap{
+    background-color: #FFF8F3;
+    margin: 0px auto;
+    padding: 130px 150px;
+}
+.about-section .about-wrap .about-content{
+    width: 827px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #817f7f;
+}
+.about-section .about-wrap .about-content .about-title{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #181818;
+}
+.about-section .about-wrap .about-content .about-description{
+   line-height: 150%;
+   font-size: 18px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.about-wrap .contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact .info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+}
+.contact p{
+    font-size: 20px;
+    color: #757575;
+}
+.contact h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: #474747;
 }
